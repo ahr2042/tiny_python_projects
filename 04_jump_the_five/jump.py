@@ -45,9 +45,11 @@ def main():
     for i in text_arg:
         if i in jumper:
             translation = jumper.get(i)
-            print(translation,sep="", end="")
+            print(translation, sep="", end="")
         else:
             print(i, sep="", end="")
+
+    print()
 
 
 # --------------------------------------------------
